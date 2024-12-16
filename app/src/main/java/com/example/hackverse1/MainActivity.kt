@@ -16,6 +16,8 @@ import com.example.hackverse1.ui.theme.Hackverse1Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+                title = "HackVerse"
+
         enableEdgeToEdge()
         setContent {
             Hackverse1Theme {
